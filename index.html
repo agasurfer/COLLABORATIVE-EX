@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Exercise</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="container">
+        <div class="logo"><span class="highlight">BE</span>MOVIES</div>
+        <nav>
+            <a href="#">Search</a>
+            <a href="#">Latest</a>
+            <a href="#">Genres</a>
+            <a href="#" class="login-btn">Login/Register</a>
+        </nav>
+    </header>
+
+    <!-- Search Bar Section -->
+    <section class="container search-bar">
+        <input type="text" placeholder="Search for a movie..." class="search-input">
+        <button class="search-button">Search</button>
+    </section>
+
+ 
+    <!-- Results Section -->
+    <section class="container results">
+        <h2 class="result-text"> </h2>
+        <div class="swiper-container results-swiper">
+            <div class="swiper-wrapper">
+                <!-- div class="swiper-slide movie-card">
+                    
+                </div>
+                <div class="swiper-slide movie-card">
+                    <
+                </div>
+                <div class="swiper-slide movie-card">
+                    
+                </div> -->
+                <!-- Add more slides as needed -->
+            </div>
+            <!-- Swiper navigation buttons -->
+      
+        </div>
+    </section>
+
+    <!-- Latest Releases Section -->
+    <section class="container latest-releases">
+        <h2>Latest Releases</h2>
+        <div class="swiper-container latest-swiper">
+            <div class="swiper-wrapper">
+               <!--  <div class="swiper-slide movie-card">
+                    
+                </div>
+                <div class="swiper-slide movie-card">
+                    
+                </div>
+                <div class="swiper-slide movie-card"> -->
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Movies by Genre Section -->
+    <section class="container genre-section">
+        <h2>Movies by Genre</h2>
+        <div class="genres">
+            <button class="comedy">Comedy</button>
+            <button class="drama">Drama</button>
+            <button class="action">Action</button>
+            <button class="romance">Romance</button>
+            <button class="fantasy">Fantasy</button>
+            <button class="animation">Animation</button>
+        </div>
+        <div class="swiper-container genre-swiper">
+            <div class="swiper-wrapper">
+               <!--  <div class="swiper-slide movie-card">
+                    
+                </div>
+                <div class="swiper-slide movie-card">
+                    
+                </div>
+                <div class="swiper-slide movie-card"> -->
+                    
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+           
+        </div>
+    </section>
+
+     <!-- Popup for Login/Register -->
+     <div class="login" id="loginPopup">
+        <div class="login-content">
+            <div class="tabs">
+                <button id="signup-tab">Signup</button>
+                <button id="login-tab" class="active">Login</button>
+            </div>
+            <form id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <button type="submit">Login</button>
+                <p>Not a member yet? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Popup for Movie Details -->
+    <div class="popup" id="movieDetailsPopup">
+        <div class="close-pop">
+            &times;
+        </div>
+        
+        
+        
+        <div class="popup-content">
+            
+            
+            <img src="" alt="">
+            <div class="movie-info-popup">
+                
+                <h2></h2>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container">
+        <p>&copy; 2023 <span class="highlight">BE</span>MOVIES - All rights reserved</p>
+        <nav class="footer-nav">
+            <a href="#">Search</a>
+            <a href="#">Latest</a>
+            <a href="#">Genres</a>
+            <a href="#">Register</a>
+        </nav>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts2.js"></script>
+</body>
+</html>
+
+<!-- ----------------- -->
